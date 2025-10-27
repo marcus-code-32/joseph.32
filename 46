@@ -1,0 +1,18 @@
+🎯 Problem 2: Minimum Key Change to Fix BST
+You receive a binary tree (not guaranteed BST) with N unique values.
+You must change the minimum number of node values so that the resulting tree becomes a valid BST while keeping the same structure.
+
+Output the minimum number of value changes.
+
+Constraints:
+• N ≤ 2×10⁵
+• Node values ≤ 10⁹
+
+This tests:
+• Recognizing that inorder traversal of a BST must be strictly increasing
+• Convert inorder values to LIS (Longest Increasing Subsequence)
+• Result is N − LIS length
+• You must carefully extract and map structure to values efficiently
+
+Hidden gem of the solution:
+The longest valid increasing subsequence of inorder traversal is the portion already “BST-correct.”

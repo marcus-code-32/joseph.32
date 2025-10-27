@@ -1,0 +1,15 @@
+🌲 Problem 1: Count Valid BST Replacements
+You are given a Binary Search Tree and a list of k distinct new values.
+You may replace exactly one node’s value in the tree with one of the new values.
+Your job is to return the number of replacements that would still keep the tree a valid BST.
+
+Details that make this spicy:
+• Parent-child ordering must hold
+• Global ordering must hold
+• You must check proper in-range constraints
+• Node count up to 2×10⁵
+• k up to 10⁵
+
+This demands:
+• Track min-max valid ranges for every node
+• Efficient binary search to check ea

@@ -1,0 +1,5 @@
+
+   Problem 3: Binary Search Tree Distance Queries (Dynamic) Given an initially empty BST, you perform m operations
+   : "I x": insert value x "D x": delete value x (if exists) "Q a b": query distance 
+   (#edges) between nodes with values a and b If either a or b not present 
+return -1. m ≤ 2×10⁵ All values ≤ 10⁹ Insert/delete must maintain BST structure
