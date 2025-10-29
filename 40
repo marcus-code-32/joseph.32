@@ -1,0 +1,5 @@
+🧩 Problem 2: Remove Nodes Forming Desc Direction You are given a singly linked list. 
+Remove every node that has a next node with a strictly greater value. 👉 Idea: A node should stay only 
+if no value to its right is greater. Example: Input: 10 → 5 → 7 → 3 → 9 → 1 Right-side max check: 10 stays 
+(no greater on right at start) 5 removed (7 > 5 exists) 7 stays (9 > 7 exists → remove 7?) → Actually 9 exists 
+on right → yes remove 3 removed (9 > 3) 9 stays 1 stays (no greater on right) Output: 10 → 9 → 1 for this as well

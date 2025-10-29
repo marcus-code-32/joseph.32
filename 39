@@ -1,0 +1,36 @@
+🧩 Problem 3: Middle Swap Sorting
+
+Given a linked list, perform the following transformation:
+
+1️⃣ Find the middle of the list
+2️⃣ Reverse the second half
+3️⃣ Now interleave nodes:
+
+L1 → R1 → L2 → R2 → ...
+
+
+Where L = nodes from 1st half, R = nodes from reversed second half
+If the list length is odd, the first half gets the extra node.
+
+Example:
+
+Input: 1 → 2 → 3 → 4 → 5 → 6
+Middle split:
+L = 1,2,3
+R = 4,5,6 → reversed → 6,5,4
+
+Interleave:
+Output: 1 → 6 → 2 → 5 → 3 → 4
+
+Another example:
+Input: 1 → 2 → 3 → 4 → 5
+L = 1,2,3
+R = 4,5 → reversed → 5,4
+
+Output: 1 → 5 → 2 → 4 → 3
+
+Constraints:
+
+1 ≤ List length ≤ 2×10⁵
+
+O(1) extra memory allowed — modify in-place!

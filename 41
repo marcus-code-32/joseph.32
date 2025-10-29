@@ -1,0 +1,28 @@
+🧩 Problem 1: Group Alternating Flip
+
+Given the head of a singly linked list and an integer k.
+
+Process the list in groups of size k:
+
+If the group index is odd (1st, 3rd, 5th…), keep order as is
+
+If the group index is even (2nd, 4th, 6th…), reverse that group
+
+If the final group has size < k, leave it unchanged.
+
+Example:
+
+Input:
+List = 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9
+k = 3
+
+Groups: [1,2,3], [4,5,6], [7,8,9]
+Output: 1 → 2 → 3 → 6 → 5 → 4 → 7 → 8 → 9
+
+Constraints:
+
+1 ≤ k ≤ 1000
+
+1 ≤ List length ≤ 10⁵
+
+O(1) extra space
