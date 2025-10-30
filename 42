@@ -1,0 +1,24 @@
+🧩 Problem 3: K-Group Merge and Reverse
+You are given two sorted linked lists A and B and an integer k.
+
+Process:
+
+Merge the two lists into one sorted list
+
+Then reverse every consecutive group of size k
+
+If the final group has length < k, keep it as is
+
+Return the head of the resulting list.
+
+Example:
+A: 1 → 3 → 5 → 7
+B: 2 → 4 → 6 → 8
+k = 3
+Merged: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
+Result: 3 → 2 → 1 → 6 → 5 → 4 → 7 → 8
+
+Constraints:
+• N ≤ 2×10⁵
+• O(1) extra memory
+• Must remain stable merge order during merging

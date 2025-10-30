@@ -1,4 +1,4 @@
-🌲 Problem 1: Count Valid BST Replacements
+Problem 1: Count Valid BST Replacements
 You are given a Binary Search Tree and a list of k distinct new values.
 You may replace exactly one node’s value in the tree with one of the new values.
 Your job is to return the number of replacements that would still keep the tree a valid BST.

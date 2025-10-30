@@ -1,0 +1,18 @@
+🧩 Problem 2: Reorder by Node Value Parity
+
+Description:
+Given a linked list, reorder it such that all even-valued nodes appear before odd-valued nodes, but maintain the original relative order within each group.
+
+Example:
+
+Input: 1 -> 4 -> 5 -> 2 -> 7 -> 8  
+Output: 4 -> 2 -> 8 -> 1 -> 5 -> 7
+
+
+Explanation:
+Even values: 4, 2, 8
+Odd values: 1, 5, 7
+Combine → even list first, then odd list
+
+Hint:
+You can maintain two dummy heads — one for even and one for odd — and link them at the end.

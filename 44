@@ -1,0 +1,18 @@
+🌪️ Problem 1: Multi-Cycle Linked List Repair
+You are given the head of a possibly corrupted linked list in which multiple nodes may have their next pointers pointing backward, creating multiple cycles.
+
+Your task is to:
+
+Detect all cycles
+
+Break each cycle by removing exactly one next pointer from a node inside that cycle
+
+The final list must be a valid singly linked list (acyclic)
+
+Return the head of the repaired list
+
+Extra rules:
+• Max list size: 2×10⁵
+• You must use O(1) extra memory
+• Minimize the number of disconnections
+• Ensure the overall ordering of nodes remains original wherever possible

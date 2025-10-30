@@ -1,0 +1,21 @@
+🧩 Problem 1: Longest Subarray with Equal 0s and 1s
+
+Description:
+Given a binary array (containing only 0 and 1), find the length of the longest subarray with an equal number of 0s and 1s.
+
+Example:
+
+Input: [0, 1, 0, 1, 1, 1, 0]  
+Output: 6  
+
+
+Explanation:
+The subarray [0, 1, 0, 1, 1, 1] has 3 zeros and 3 ones.
+
+Hint:
+
+Convert 0 → -1.
+
+Use a HashMap to store prefix sum and its first occurrence.
+
+If the prefix sum repeats, subarray between them has equal 0s and 1s.

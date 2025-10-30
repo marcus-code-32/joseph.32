@@ -1,0 +1,17 @@
+🧩 Problem 3: Group Words That Are Anagrams
+
+Description:
+Given an array of strings, group all the anagrams together.
+Return the result as a list of groups.
+
+Example:
+
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"]  
+Output: [["eat","tea","ate"], ["tan","nat"], ["bat"]]
+
+
+Explanation:
+Words with the same sorted characters form one group.
+
+Hint:
+Use a HashMap where the key is the sorted version or character frequency tuple of the word.

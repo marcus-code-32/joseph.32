@@ -1,0 +1,13 @@
+🔀 Problem 2: Minimum Swaps to Make List Alternating
+You are given the head of a linked list with values 0 or 1.
+
+A valid alternating list looks like:
+0 → 1 → 0 → 1 → ... or 1 → 0 → 1 → 0 → ...
+
+Your task:
+Return the minimum number of node swaps (not value swaps) needed to make the list alternating. You may swap any two nodes, not just adjacent ones.
+
+Constraints:
+• N ≤ 2×10⁵
+• Values only 0 or 1
+• If impossible, return -1
