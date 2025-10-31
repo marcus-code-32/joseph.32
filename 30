@@ -1,0 +1,25 @@
+Rotting Oranges
+
+Concepts: Queue, BFS (Breadth-First Search)
+
+Problem:
+You are given a grid representing oranges:
+
+0 → empty cell
+
+1 → fresh orange
+
+2 → rotten orange
+
+
+Every minute, each rotten orange turns adjacent fresh oranges (up, down, left, right) rotten.
+Return the minimum number of minutes until all oranges become rotten, or -1 if impossible.
+
+
+Input: grid = [
+  [2,1,1],
+  [1,1,0],
+  [0,1,1]
+]
+Output: 4
+

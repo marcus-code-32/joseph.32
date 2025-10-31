@@ -1,0 +1,20 @@
+1. Next Greater Element II
+
+Concepts: Stack, Circular Array
+
+Problem:
+Given a circular array, find the Next Greater Number for every element.
+The Next Greater Number of a number x is the first greater number to its right, considering the array circularly (after the last element, the array wraps back to the first).
+
+Example:
+
+Input: nums = [1, 2, 1]
+Output: [2, -1, 2]
+Explanation:
+For 1, the next greater element is 2.
+For 2, there is no next greater element, so -1.
+For the last 1, the next greater element is 2 (since the array is circular).
+
+
+Hint:
+Use a monotonic stack that keeps indexes of elements. Traverse the array twice (simulate circularity).
