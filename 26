@@ -1,0 +1,19 @@
+4️⃣ Maximum Sum Circular Subarray
+
+Concepts: Prefix Sum, Kadane’s Algorithm, Suffix Array
+Problem:
+Given a circular array nums, find the maximum possible sum of a non-empty subarray.
+
+Example:
+
+Input: nums = [1, -2, 3, -2]
+Output: 3
+Explanation: Subarray [3] has max sum = 3.
+
+
+Hint:
+Two cases:
+
+Subarray doesn’t wrap → normal Kadane’s.
+
+Subarray wraps → use total_sum - min_subarr
